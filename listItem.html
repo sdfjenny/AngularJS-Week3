@@ -1,0 +1,13 @@
+<table class="table">
+	  <tr ng-repeat='item in searcher.items'>
+	  <td>({{item.short_name}})</td>
+	  <td>{{item.name}} </td>
+	  <td>{{item.description}} </td>
+	  <td>
+	  <button type="button" class="btn btn-danger" ng-click = "onRemove($index);">Don't want this one!</button>
+	  </td>
+	  </tr>
+	  
+	</table>
+	
+	<!--<div ng-if="Searcher.emptycheck()"><span>Nothing found</span></div> -->
